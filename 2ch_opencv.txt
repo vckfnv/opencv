@@ -1,0 +1,24 @@
+#2단원 - 기초 사용법
+
+*주요 함수
+imread
+imwrite
+namedWindow
+destroyWindow/ destroyAllWindows()
+moveWindow
+resizeWindow
+imshow
+waitKey
+
+* IMREAD_
+    UNCHANGED : 입력 파일에 지정된 그대로의 컬러 속성을 사용. 4채널까지 가능
+    GRAYSCALE : 1채널 그레이스케일 영상
+    COLOR : 3채널 BGR 컬러 영상 (DEFAULT)
+    REDUCED_GRAYSCALE_2 : 크기를 1/2로 줄임
+    REDUCED_COLOR_2 : 크기를 1/2로 줄임
+    IGNORE_ORIENTATION : EXIF에 저장된 방향 정보를 사용하지 않음.
+
+*  (namedWindow()) WINDOW_
+    NORMAL : 창의 크기에 맞게 영상 크기가 변경됨
+    AUTOSIZE : 출력하는 영상 크기에 맞게 창 크기가 자동으로 변경
+    OPENGL : OpenGL 지원
